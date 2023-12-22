@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { incrementNumber, decrementNumber } from './actions/index';
+import { incrementNumber, decrementNumber } from './redux/actions/index';
 function App() {
   const myState = useSelector((state)=> state.changeTheNumber);
   const dispatch = useDispatch();
